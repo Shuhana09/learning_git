@@ -4,8 +4,6 @@ import heapq as hq
 from icecream import ic
 
 
-
-
 class Solution:
     def dfs(self, graph, node, visited):
         if visited[node] == 2:
@@ -46,7 +44,3 @@ ic(graph)
 res = c.eventualSafeNodes(graph)
 ic(res)
 
-graph = [[1,2,3,4],[1,2],[3,4],[0,4],[]]
-ic(graph)
-res = c.eventualSafeNodes(graph)
-ic(res)
